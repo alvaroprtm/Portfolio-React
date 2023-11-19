@@ -13,7 +13,7 @@ const App = () => {
                          offset={0} 
                          speed={0.5}
                          style={{
-                          backgroundImage: "url('https://alvaroprtm.github.io/Portfolio-React/src/assets/backgroundimg_crop.png')",
+                          backgroundImage: "url('Portfolio-React/src/assets/backgroundimg_crop.png')",
                           backgroundSize: 'cover',
                           width: "100%",
                           height: "30%",
@@ -33,7 +33,7 @@ const App = () => {
                          speed={3}
                          factor={1}
                          style={{
-                          backgroundImage: "url('https://alvaroprtm.github.io/Portfolio-React/src/assets/2ndbg.jpg')",
+                          backgroundImage: "url('Portfolio-React/src/assets/2ndbg.jpg')",
                           backgroundSize: 'cover',
                           width: "100%",
                           height:"40%",
@@ -50,7 +50,7 @@ const App = () => {
                          speed={1}
                          factor={3}
                          style={{
-                          backgroundImage: "url('https://alvaroprtm.github.io/Portfolio-React/src/assets/experiencebg.jpg')",
+                          backgroundImage: "url('Portfolio-React/src/assets/experiencebg.jpg')",
                           backgroundSize: 'cover',
                           backgroundPosition: 'center',
                           width: "100%",
