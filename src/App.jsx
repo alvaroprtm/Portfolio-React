@@ -1,6 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, StarsCanvas } from './components';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import monitorBg from "../src/assets/monitorbg.png";
+import keyboardBg from "../src/assets/keyboardbg.jpg"
 import Plx from 'react-plx'
 
 const App = () => {
@@ -13,7 +15,7 @@ const App = () => {
                          offset={0} 
                          speed={1}
                          style={{
-                          backgroundImage: "url(Portfolio-React/src/assets/monitorbg.png)",
+                          backgroundImage: `url(${monitorBg})`,
                           backgroundSize: 'cover',
                           width: "100%",
                           height: "30%",
@@ -33,7 +35,7 @@ const App = () => {
                          speed={0.8}
                          factor={1}
                          style={{
-                          backgroundImage: "url(Portfolio-React/src/assets/keyboardbg.jpg)",
+                          backgroundImage: `url(${keyboardBg})`,
                           backgroundSize: 'cover',
                           width: "100%",
                           height:"40%",
