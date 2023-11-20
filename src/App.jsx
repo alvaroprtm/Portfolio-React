@@ -11,9 +11,9 @@ const App = () => {
           {/* Parallax Image */}
           <ParallaxLayer className="bg-center"
                          offset={0} 
-                         speed={0.5}
+                         speed={1}
                          style={{
-                          backgroundImage: "url('Portfolio-React/src/assets/backgroundimg_crop.png')",
+                          backgroundImage: "url(Portfolio-React/src/assets/monitorbg.png)",
                           backgroundSize: 'cover',
                           width: "100%",
                           height: "30%",
@@ -30,10 +30,10 @@ const App = () => {
           </ParallaxLayer>
             
           <ParallaxLayer offset={1} 
-                         speed={3}
+                         speed={0.8}
                          factor={1}
                          style={{
-                          backgroundImage: "url('Portfolio-React/src/assets/2ndbg.jpg')",
+                          backgroundImage: "url(Portfolio-React/src/assets/keyboardbg.jpg)",
                           backgroundSize: 'cover',
                           width: "100%",
                           height:"40%",
@@ -50,7 +50,7 @@ const App = () => {
                          speed={1}
                          factor={3}
                          style={{
-                          backgroundImage: "url('Portfolio-React/src/assets/experiencebg.jpg')",
+                          backgroundImage: "url(Portfolio-React/src/assets/experiencebg.jpg)",
                           backgroundSize: 'cover',
                           backgroundPosition: 'center',
                           width: "100%",
