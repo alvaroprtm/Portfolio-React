@@ -1,8 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, StarsCanvas } from './components';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import monitorBg from "../src/assets/monitorbg.png";
-import keyboardBg from "../src/assets/keyboardbg.jpg"
+import monitorBg from '../src/assets/monitorbg.png';
+import keyboardBg from '../src/assets/keyboardbg.jpg';
 import Plx from 'react-plx'
 
 const App = () => {
