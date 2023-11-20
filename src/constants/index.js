@@ -19,6 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
+    mindreality,
+    vu,
     carrent,
     jobit,
     tripguide,
@@ -118,7 +120,7 @@ import {
     {
       title: "Junior Web Developer",
       company_name: "MindReality",
-      icon: '/src/assets/company/mindreality.png',
+      icon: mindreality,
       iconBg: "#FFFFFF",
       date: "Oct 2022 - May 2023",
       points: [
@@ -131,7 +133,7 @@ import {
     {
       title: "Teaching Assistant",
       company_name: "Vrije Universiteit Amsterdam",
-      icon: '/src/assets/company/vu.png',
+      icon: vu,
       iconBg: "#E6DEDD",
       date: "Nov 2023 - Dec 2023",
       points: [

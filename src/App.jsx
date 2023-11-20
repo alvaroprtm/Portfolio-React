@@ -2,7 +2,8 @@ import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, StarsCanvas } from './components';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import monitorBg from '../src/assets/monitorbg.png';
-import keyboardBg from '../src/assets/keyboardbg.jpg';
+import aboutBg from '../src/assets/aboutBg.png';
+import experiencebg from '../src/assets/experiencebg.jpg';
 import Plx from 'react-plx'
 
 const App = () => {
@@ -33,39 +34,36 @@ const App = () => {
             
           <ParallaxLayer offset={1} 
                          speed={0.8}
-                         factor={1}
+                         factor={2}
                          style={{
-                          backgroundImage: `url(${keyboardBg})`,
+                          backgroundImage: `url(${aboutBg})`,
                           backgroundSize: 'cover',
-                          width: "100%",
-                          height:"40%",
-                          marginTop: 0
                          }}
           ></ParallaxLayer>
 
+          
           {/* About Component */}
           <ParallaxLayer offset={1} speed={1}>
             <About />
           </ParallaxLayer>
 
-          <ParallaxLayer offset={2} 
+          
+          <ParallaxLayer offset={2.5} 
                          speed={1}
-                         factor={3}
+                         factor={2}
                          style={{
-                          backgroundImage: "url(Portfolio-React/src/assets/experiencebg.jpg)",
+                          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 1%, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 0) 100%), url(${experiencebg})`,
                           backgroundSize: 'cover',
                           backgroundPosition: 'center',
-                          width: "100%",
-                          height:"40%",
-                          marginTop: 0
-                         }}
+                          height: "38%"
+                          }}
           ></ParallaxLayer>
 
-          <ParallaxLayer offset={2} speed={1}>
+          <ParallaxLayer offset={2.5} speed={1}>
             <Experience />
           </ParallaxLayer>
           
-          <ParallaxLayer offset={3} speed={2}>
+          <ParallaxLayer offset={3.5} speed={2}>
             <div className="relative z-0">
               <Contact />
               <StarsCanvas />
